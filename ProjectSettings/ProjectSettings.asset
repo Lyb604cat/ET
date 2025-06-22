@@ -878,7 +878,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: UNITY;ENABLE_VIEW
     Server: UNITY;ENABLE_VIEW
-    Standalone: UNITY;ENABLE_VIEW
+    Standalone: UNITY;ENABLE_VIEW;INITED
     WebGL: UNITY;ENABLE_VIEW
     iPhone: UNITY;ENABLE_VIEW
   additionalCompilerArguments: {}
@@ -1012,7 +1012,13 @@ PlayerSettings:
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
-  qualitySettingsNames: []
+  qualitySettingsNames:
+  - Fastest
+  - Fast
+  - Simple
+  - Good
+  - Beautiful
+  - Fantastic
   projectName: 
   organizationId: 
   cloudEnabled: 0
